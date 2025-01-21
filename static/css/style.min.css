@@ -1,0 +1,27 @@
+/***网站背景颜色**/
+header , .search input{background:#fcfcfc;}
+.section , .compost .com_info li input , .compost .com_info textarea , .active_time , .search , .pagebar .page{background: #fdfcfc;}
+/***网站字体颜色**/
+body{color:#333333;background: #ededed;}
+.content , .title_c , .contact-number , .abstract , #nav , #search , #contact{color:#555555;}
+a,ins{color:#363636}
+a:hover , .list-a li i , .list-it li .info span a:hover , .subcategorys li a:hover , .subcategorys li a.current , .readmore span:hover , .jian ul li a::before{color:#d12005;} 
+html , footer{background: #303030;}
+footer p , footer  a{color:#fcfcfd}
+/***导航栏和按钮颜色**/
+.nav_box , .search button , .pagebar .page:hover , .pagebar .now-page , .compost .com_info button , .slides_tabs li.slides_here a , #nav_search , header.head2 , .section .h3 h3::before{background:#c71f05;}
+.search button:hover , .compost .com_info button:hover , .nav li.current-li , .nav li:hover {background:#e02306;}
+.content h2::before , .content h3::before , .content h4::before , .content h5::before , .content h6::before , .contact-number i{color:#c71f05;}
+.content table tr:first-child{background:#c71f05!important;}
+.readmore span {border:1px solid #c71f05;color:#c71f05;}
+.readmore span:hover{background:#c71f05;color:#fff;}
+/**边框颜色**/
+.section .h3 , .content .article_title , .list-comment li , .list-it li , .column-it li , .breadcrumb , .border-bottom , .abstract , .subcategorys{border-bottom:1px solid #ededed;}
+.comlist ul ,  .list-pic li .info , .border_top {border-top:1px solid #ededed}
+.content table td , .compost .com_info li input , .compost .com_info textarea {border:1px solid #ededed;}
+.search input{border:2px solid #ededed;}
+.contact p , .search input , .input_clear , .section .info , .turn , .list-a li span , .list-a li span i ,  .pagebar .page , .focus p , .clbody em , .logo p , .content .turn p , .list-it li p , .list-comment .comment_info , .comment_zan , .comment_cai , .column-a li span , .list-comment .comment_box h4 span , .breadcrumb , .breadcrumb i , .breadcrumb a , .subcategorys span , .links li small{color:#888888}
+@media screen and (max-width:721px){
+#nav i,#search i, #contact i {color:#c71f05}
+.search , .contact{background: #fcfcfc; }
+}
